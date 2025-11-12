@@ -31,29 +31,29 @@ lanceJet.addEventListener("click", function(){
 
     if(number === 1){
         imageChange.src = "./img/unpourcent.gif";
-        pourcentage.innerText = number;
+        pourcentage.innerText = number + "%";
         paragraphe.innerText = randomPhrase(reussiteUnPourCent);
         h2.innerText = "Incroyabe !"
     } else if (number === 100){
         imageChange.src = "./img/centpourcent.gif";
-        pourcentage.innerText = number;
+        pourcentage.innerText = number + "%";
         paragraphe.innerText = randomPhrase(echecCentPourCent);
         h2.innerText = "Toz hlik"
 
     } else if (number <= 5){
         imageChange.src = "./img/reussitecritique.gif";
-        pourcentage.innerText = number;
+        pourcentage.innerText = number + "%";
         paragraphe.innerText = randomPhrase(reussiteCritique);
         h2.innerText = "Ty es bien!"
     } else if (number >= 95){
         imageChange.src = "./img/echecritique.gif";
-        pourcentage.innerText = number;
+        pourcentage.innerText = number + "%";
         paragraphe.innerText = randomPhrase(echecCritique);
         h2.innerText = "T'es dans la merde"
 
     } else {
         imageChange.src = "./img/normal.gif";
-        pourcentage.innerText = number;
+        pourcentage.innerText = number + "%";
         paragraphe.innerText = randomPhrase(normalJet);
         h2.innerText = "Alors reussi ou pas ?"
     }

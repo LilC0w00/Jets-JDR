@@ -1,0 +1,59 @@
+body,html {
+    background-color: #221E1A;
+    color: #C89F9C;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#orga {
+    margin-top: 140px;
+    text-align: center;
+}
+
+#orga h1 {
+    margin: 10px 0 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#orga h2 {
+    font-family: "Lora", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-top:10px;
+}
+
+#orga p {
+    font-family: "Hind Madurai", sans-serif;
+}
+
+#orga img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+#lancer-jet {
+    width: 300px;
+    height: 60px;
+
+    border-radius: 40px;
+    border: none;
+
+    color: #EEE2DF;
+    background-color: #C89F9C;
+
+    margin-top: 20px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    cursor: pointer;
+}
