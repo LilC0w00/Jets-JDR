@@ -38,7 +38,7 @@ lanceJet.addEventListener("click", function(){
         imageChange.src = "./img/centpourcent.gif";
         pourcentage.innerText = number + "%";
         paragraphe.innerText = randomPhrase(echecCentPourCent);
-        h2.innerText = "Toz hlik"
+        h2.innerText = "Aie t'es foutu"
 
     } else if (number <= 5){
         imageChange.src = "./img/reussitecritique.gif";
@@ -49,7 +49,7 @@ lanceJet.addEventListener("click", function(){
         imageChange.src = "./img/echecritique.gif";
         pourcentage.innerText = number + "%";
         paragraphe.innerText = randomPhrase(echecCritique);
-        h2.innerText = "T'es dans la merde"
+        h2.innerText = "T'es dans la mouise"
 
     } else {
         imageChange.src = "./img/normal.gif";
